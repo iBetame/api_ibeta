@@ -1,18 +1,32 @@
-package me.ibeta;
+package me.ibeta.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "ibeta_posts")
 public class Article {
 
-    private long id;
+    @Id
+    //@GeneratedValue(strategy=GenerationType.AUTO)
+    private int id;
+
+    @Column(name="post_url")
     private String url;
+
+    @Column(name="post_author")
     private String author;
+
+    @Column(name="post_title")
     private String title;
+
+    @Column(name="post_summary")
     private String summary;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -47,4 +61,5 @@ public class Article {
     public void setSummary(String summary) {
         this.summary = summary;
     }
+
 }

@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: 
+        username:
+        password:
+
+    jpa:
+        properties:
+            hibernate:
+                hbm2ddl:
+                    auto: validate
