@@ -2,6 +2,10 @@ package me.ibeta.entity;
 
 import javax.persistence.*;
 
+/**
+ * Created by sunbelife on 2018/9/28.
+ */
+
 @Entity
 @Table(name = "ibeta_pt")
 public class PT {

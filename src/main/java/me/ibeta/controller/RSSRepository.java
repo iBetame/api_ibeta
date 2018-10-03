@@ -4,7 +4,8 @@ import me.ibeta.entity.PT;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by sunbelife on 2018/9/28.
+ * Created by Sunbelife on 2018/10/4.
  */
-interface PTRepository extends JpaRepository<PT,Integer> {
+
+interface RSSRepository extends JpaRepository<RSS,Integer> {
 }

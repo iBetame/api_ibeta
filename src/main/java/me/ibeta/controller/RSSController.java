@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * Created by sunbelife on 2018/9/28.
+ * Created by Sunbelife on 2018/10/4.
  */
 
 @RestController
-public class PTController {
+public class RSSController {
 
     @Resource
-    PTRepository ptRepository;
+    RSSRepository rssRepository;
 
-    @RequestMapping("/pt")
-    public List<PT> greeting() {
-        return ptRepository.findAll();
+    @RequestMapping("/rss")
+    public List<RSS> greeting() {
+        return rssRepository.findAll();
     }
 }
