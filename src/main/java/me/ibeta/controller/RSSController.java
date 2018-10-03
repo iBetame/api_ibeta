@@ -2,7 +2,7 @@ package me.ibeta.controller;
 
 import java.util.List;
 
-import me.ibeta.entity.PT;
+import me.ibeta.entity.RSS;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

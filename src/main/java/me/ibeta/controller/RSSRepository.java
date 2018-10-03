@@ -1,6 +1,6 @@
 package me.ibeta.controller;
 
-import me.ibeta.entity.PT;
+import me.ibeta.entity.RSS;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
